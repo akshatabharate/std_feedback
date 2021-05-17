@@ -1,0 +1,8 @@
+<%= simple_form_for @faculty do |f| %>
+  <%= f.input :Name, label: "Faculty Name" %>
+  <%= f.input :subject %>
+  <%= f.input :contact %>
+  <%= f.button :submit do %>
+  <i class='icon-white icon-ok'></i>
+  <% end %> 
+<% end %>
